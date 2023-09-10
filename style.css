@@ -1,0 +1,150 @@
+/* Reset some default browser styles */
+body, form {
+  margin: 0;
+  padding: 0;
+}
+/* Set the background color of the entire page */
+body {
+  background-color: #1d2b3a;
+  color: #ffffff; /* Change text color to white */
+}
+/* Style the form container */
+form {
+  max-width: 800px; /* Adjust the max-width for the form */
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+/* Style form labels */
+label {
+  display: inline-block;
+  width: 45%; /* Set the width to create two columns */
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #000000; /* Change label text color to black */
+}
+/* Style form inputs */
+input[type="text"] {
+  width: 48%; /* Set the width to create two columns with some spacing */
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box; /* Ensure padding doesn't affect the width */
+}
+/* Style form submit button */
+input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+/* Style form submit button on hover */
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+/* Style output and visualization headers */
+h2 {
+  margin-top: 20px;
+  color: #ffffff; /* Change header text color to white */
+}
+h1 {
+  font-size: 36px; /* Adjust the font size as needed */
+  text-align: center; /* Center-align the heading */
+  text-transform: uppercase; /* Convert text to uppercase */
+  margin-top: 40px; /* Add margin to the top for spacing */
+  font-family: "Times New Roman", Times, serif;
+}
+h3 {
+  font-size: 50px; /* Adjust the font size as needed */
+  text-align: center; /* Center-align the heading */
+  text-transform: uppercase; /* Convert text to uppercase */
+  margin-top: 40px; /* Add margin to the top for spacing */
+  font-family: "Times New Roman", Times, serif;
+}
+/* Style images */
+/* Add spacing between images */
+img {
+  max-width: 400px;
+  max-height: 1000px;
+  height: auto;
+  margin: 0 auto; /* Center-align the image horizontally */
+  margin-bottom: 20px;
+  display: block; /* Ensure each image is treated as a block element */
+}
+/* Add specific styling to each image to control their position */
+img:nth-of-type(1) {
+  margin-top: 20px; /* Add margin to the top of the first image */
+}
+img:not(:first-of-type) {
+  margin-top: 10px; /* Add smaller margin to subsequent images */
+}
+.header-container {
+  display: flex;
+  align-items: center; /* Vertically center align the content */
+  justify-content: center; /* Horizontally center align the content */
+  background-color: #1d2b3a; /* Match the background color of the body */
+  padding: 20px;
+  color: #ffffff;
+}
+/* Style the heading */
+.header-container h1 {
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-right: 20px; /* Add some space between the heading and image */
+  color: #ffffff;
+  font-family: "Times New Roman", Times, serif;
+}
+.image-container{
+    flex: 0 0 auto;
+    width: 300px;
+    justify-content: left;
+}
+/* Style the image */
+.header-container img {
+  margin-left: 100px;
+  width: 300px; /* Adjust the width as needed */
+  height: 200px;
+}
+/* Style the output heading and container wrapper */
+.output-wrapper {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center-align horizontally */
+    justify-content: center; /* Center-align vertically */
+    margin-top: 20px; /* Adjust margin as needed */
+}
+/* Style the output heading */
+.output-heading {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-left: 150px;
+    font-family: "Times New Roman", Times, serif;
+    color: white; /* Change the color to your preference */
+    margin-bottom: 10px; /* Add some space between the heading and container */
+}
+/* Style the output container */
+.output-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 250px;
+    background-color: #f5f5f5; /* Change the background color to your preference */
+    display: inline-block; /* Make it an inline-block element */
+    width: 830px; /* Adjust the width to your preference */
+    height: auto;
+}
+.output-container p{
+    color: #000000;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
+
+
